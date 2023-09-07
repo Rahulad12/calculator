@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oddeven</title>
+    <style>
+        .box{
+            /* border: 1px double red; */
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        input{
+            font-size: 40px;
+            margin-left: 4px;
+            margin: 4px;
+        }
+        label{
+            font-size: 40px;
+        }
+        button{
+            font-size: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <label for="number">Number :</label>
+        <input type="text" id="num">
+        <button type="button" id="btn">Submit</button>
+        <!-- <button type="button" value="Submit" id="btn"> -->
+        <h1 id="result"></h1>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
